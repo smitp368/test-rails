@@ -1,0 +1,9 @@
+/pkg/
+/.yardoc/
+/doc/po/*.pot
+/doc/reference/
+/doc/html/test-unit-rails/
+/Gemfile.lock
+/gemfiles/*.lock
+/tmp/
+doc/po/ja/

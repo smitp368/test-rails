@@ -1,0 +1,284 @@
+# Japanese translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2017-01-20 13:57+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "# test-unit-rails"
+msgstr ""
+
+msgid "[Web site](http://test-unit.github.io/#test-unit-rails)"
+msgstr ""
+
+msgid "## Description"
+msgstr "## 説明"
+
+msgid ""
+"test-unit-rails is a Rails adapter for test-unit 3. You can use full test-unit"
+" 3 features, [RR](https://rubygems.org/gems/rr) integration and [Capybara](htt"
+"ps://rubygems.org/gems/capybara) integration with test-unit-rails."
+msgstr ""
+"test-unit-railsはtest-unit 3用のRailsアダプターです。test-unit-railsを使うとtest-unit 3のフル機能と"
+" [RR](https://rubygems.org/gems/rr) や [Capybara](https://rubygems.org/gems/cap"
+"ybara) との連携機能を使うことができます。"
+
+msgid ""
+"Rails supports Test::Unit bundled in Ruby 1.8 and MiniTest but doesn't support"
+" test-unit 2. Rails with test-unit 2 works but is not fully worked."
+msgstr ""
+"RailsはRuby 1.8に同梱されているTest::UnitとMiniTestをサポートしていますがtest-unit 2はサポートしていません。Rai"
+"lsとtest-unit 2の組み合わせは動きますが、完全に動くというわけではありません。"
+
+msgid "## Install"
+msgstr "## インストール"
+
+msgid "Add the following codes to your Gemfile:"
+msgstr "以下のコードをGemfileに追加してください。"
+
+msgid ""
+"```ruby\n"
+"group :development, :test do\n"
+"  gem 'test-unit-rails'\n"
+"end\n"
+"```"
+msgstr ""
+
+msgid "Update bundled gems:"
+msgstr "バンドルするgemをアップデートします。"
+
+msgid ""
+"```sh\n"
+"% bundle update\n"
+"```"
+msgstr ""
+
+msgid ""
+"Replace `\"require 'rails/test_help'\"` in your test/test_helper.rb with the fol"
+"lowing codes:"
+msgstr "test/test_helper.rb内の `\"require 'rails/test_help'\"` を以下のコードで置き換えます。"
+
+msgid ""
+"```ruby\n"
+"# require 'rails/test_help'\n"
+"require 'test/unit/rails/test_help'\n"
+"```"
+msgstr ""
+
+msgid ""
+"Now you can use full test-unit 3.x features, RR integration and Capybara integ"
+"ration."
+msgstr "これでTest::Unit 2.xのフル機能とRR・Capybaraとの連携機能を使えます。"
+
+msgid "## License"
+msgstr "## ライセンス"
+
+msgid "LGPLv2.1 or later."
+msgstr "LGPLv2.1またはそれ以降のバージョン。"
+
+msgid ""
+"(Kouhei Sutou has a right to change the license including contributed patches."
+")"
+msgstr "（コントリビュートされたパッチなども含み、Kouhei Sutouがライセンスを変更する権利を持ちます。）"
+
+msgid "## Authors"
+msgstr "## 作者"
+
+msgid ""
+"* Kouhei Sutou\n"
+"* Haruka Yoshihara"
+msgstr ""
+
+msgid "# News"
+msgstr ""
+
+msgid "## 5.0.5 - 2016-12-20 {#version-5-0-5}"
+msgstr ""
+
+msgid "### Improvements"
+msgstr "### 改良"
+
+msgid "  * Required test-unit-activesupport 1.0.8 or later."
+msgstr "  * test-unit-activesupport 1.0.8 以降を必須にした。"
+
+msgid "## 5.0.4 - 2016-12-20 {#version-5-0-4}"
+msgstr ""
+
+msgid "### Fixes"
+msgstr "### 修正"
+
+msgid ""
+"  * Supported Rails 4 again.\n"
+"    [GitHub#11][Patch by Akira Matsuda]"
+msgstr ""
+"  * Rails 4 で動かなくなっていたのを修正。\n"
+"    [GitHub#11][Akira Matsudaさんがパッチ提供]"
+
+msgid "### Thanks"
+msgstr "### 感謝"
+
+msgid "  * Akira Matsuda"
+msgstr ""
+
+msgid "## 5.0.3 - 2016-12-19 {#version-5-0-3}"
+msgstr ""
+
+msgid ""
+"  * Converted documents to Markdown from Textile.\n"
+"    [GitHub#10][Patch by takiy33]"
+msgstr ""
+"  * ドキュメントファイルのフォーマットをTextileからMarkdownにした。\n"
+"    [GitHub#10] [takiy33さんがパッチ提供]"
+
+msgid "  * Supported `file_fixture`."
+msgstr "  * `file_fixture` をサポート。"
+
+msgid "  * takiy33"
+msgstr ""
+
+msgid "## 5.0.2 - 2016-06-28 {#version-5-0-2}"
+msgstr ""
+
+msgid ""
+"  * Supported Rails applications that don't use Active Record.\n"
+"    [GitHub#8][Patch by Akira Matsuda]"
+msgstr ""
+"  * Active Recordを使用していないRailsアプリでも動作するようにした。\n"
+"    [GitHub#8][Akira Matsudaさんがパッチ提供]"
+
+msgid "  * Fixed test failure. [Reported by Shita Koyanagi]"
+msgstr "  * テストが失敗しているのを修正。[Shita Koyanagiさんが報告]"
+
+msgid "  * Shita Koyanagi"
+msgstr ""
+
+msgid "## 5.0.1 - 2016-02-27 {#version-5-0-1}"
+msgstr ""
+
+msgid "  * Added missing files to gem. [GitHub#7][Patch by y-yagi]"
+msgstr "  * gemに足りないファイルを追加。 [GitHub#7] [y-yagiさんがパッチ提供]"
+
+msgid "  * y-yagi"
+msgstr ""
+
+msgid "## 5.0.0 - 2016-01-18 {#version-5-0-0}"
+msgstr ""
+
+msgid "Rails 5 support release."
+msgstr "Rails 5 のサポートリリースです。"
+
+msgid ""
+"  * Supported Rails 5.\n"
+"  * Required Rails 4 or later explicitly.\n"
+"    [GitHub#5][Patch by Charles Lowell]"
+msgstr ""
+"  * Rails 5 をサポートした。\n"
+"  * Rails 4 以降だけをサポートするようにした。\n"
+"    [GitHub#5][Charles Lowellさんがパッチ提供]"
+
+msgid "  * Charles Lowell"
+msgstr ""
+
+msgid "## 1.0.4 - 2014-09-07 {#version-1-0-4}"
+msgstr ""
+
+msgid "Bug fixes release."
+msgstr "バグフィックスリリースです。"
+
+msgid ""
+"  * Used the correct class to be extended for running tests by `Test::Unit` .\n"
+"    `ActiveSupport::TestCase` is used now but before `Test::Unit::TestCase` wa"
+"s.\n"
+"    `ActiveSupport::TestCase` (but `TestUnit::TestCase` ) is inherited\n"
+"    by `ActionController::TestCase` (for controller tests) and\n"
+"    `ActionDispatch::IntegrationTest` (for integration tests)."
+msgstr ""
+"  * `Test::Unit` でテストするための正しいクラスを拡張するようにしました。\n"
+"    以前は `Test::Unit::TestCase` を拡張していましたが、 今は `ActiveSupport::TestCase` を拡張してい"
+"ます。\n"
+"    `ActiveSupport::TestCase` ( `TestUnit::TestCase` ではなく) は `ActionController"
+"::TestCase` (コントローラテスト用) や `ActionDispatch::IntegrationTest` (インテグレーションテスト用) に"
+"継承されているからです。"
+
+msgid "## 1.0.3 - 2014-09-04 {#version-1-0-3}"
+msgstr ""
+
+msgid ""
+"  * Supported Rails 4.0.0.\n"
+"    After this version, test-unit-rails requires test-unit-activesupport\n"
+"    1.0.2 or later.\n"
+"    In this version, test-unit-rails drops to support rails 3.2.16 or older.\n"
+"    If you want to use this gem with Rails 3.2.16 or older, please use\n"
+"    1.0.2 version."
+msgstr ""
+"  * Rails4.0.0をサポート。\n"
+"このバージョン意向。test-unit-railsはtest-unit-active-supportの1.0.2以上を必須とします。\n"
+"このバージョンで、Rails3.2.16以前をサポートしなくなりました。\n"
+"もし3.2.16以前のRailsで使用したい場合は、test-unit-railsの1.0.2をお使いください。"
+
+msgid "## 1.0.2 - 2012-07-05 {#version-1-0-2}"
+msgstr ""
+
+msgid ""
+"  * Supported Bundler 1.2.0.pre.1.\n"
+"    [GitHub#1] [Reported by Michael D.W. Prendergast]"
+msgstr "Bundler 1.2.0.pre.1対応。 [GitHub#1] [Michael D.W. Prendergastさんが報告]"
+
+msgid "  * Michael D.W. Prendergast"
+msgstr "  * Michael D.W. Prendergastさん"
+
+msgid "## 1.0.1 - 2012-06-03 {#version-1-0-1}"
+msgstr ""
+
+msgid ""
+"  * Extracted ActiveSupport related codes into test-unit-activesupport\n"
+"    gem and depended on it."
+msgstr "ActiveSupport関連のコードをtest-unit-activesupport gemに抽出してそのgemを使うようにした。"
+
+msgid "## 1.0.0 - 2012-1-2 {#version-1-0-0}"
+msgstr ""
+
+msgid "The first release!!!"
+msgstr "最初のリリース！"
+
+# TestUnitRails
+msgid "Copyright (C) 2016  Kouhei Sutou <kou@clear-code.com>"
+msgstr ""
+
+# Test
+msgid ""
+"This library is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU Lesser General Public\n"
+"License as published by the Free Software Foundation; either\n"
+"version 2.1 of the License, or (at your option) any later version."
+msgstr ""
+
+# Test
+msgid ""
+"This library is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n"
+"Lesser General Public License for more details."
+msgstr ""
+
+# Test
+msgid ""
+"You should have received a copy of the GNU Lesser General Public\n"
+"License along with this library; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+# Test
+msgid "Copyright (C) 2012-2016  Kouhei Sutou <kou@clear-code.com>"
+msgstr ""
